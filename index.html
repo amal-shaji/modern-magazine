@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Article.</title>
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+	<link rel="stylesheet" href="/sass/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="sidebar">
+		<div class="hamburger">
+			<svg width="22" height="18" xmlns="http://www.w3.org/2000/svg">
+			  <path d="M0 3V0h21.417v3H0zm0 7.417v-3h21.417v3H0zm0 7.417v-3h15.5v3H0z" fill="#121212" fill-rule="nonzero"/>
+			</svg>
+		</div>
+
+		
+			<svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M9.38606 0.210648C9.74717 -0.0702159 10.2528 -0.0702159 10.6139 0.210648L19.6139 7.21065C19.8575 7.4001 20 7.69141 20 8V19C20 19.7957 19.6839 20.5587 19.1213 21.1213C18.5587 21.6839 17.7957 22 17 22H3C2.20435 22 1.44129 21.6839 0.87868 21.1213C0.31607 20.5587 0 19.7957 0 19V8C0 7.69141 0.142473 7.4001 0.386059 7.21065L9.38606 0.210648ZM2 8.48908V19C2 19.2652 2.10536 19.5196 2.29289 19.7071C2.48043 19.8946 2.73478 20 3 20H17C17.2652 20 17.5196 19.8946 17.7071 19.7071C17.8946 19.5196 18 19.2652 18 19V8.48908L10 2.26686L2 8.48908Z" fill="black"/>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M6 11C6 10.4477 6.44772 10 7 10H13C13.5523 10 14 10.4477 14 11V21C14 21.5523 13.5523 22 13 22C12.4477 22 12 21.5523 12 21V12H8V21C8 21.5523 7.55228 22 7 22C6.44772 22 6 21.5523 6 21V11Z" fill="black"/>
+				</svg>
+			
+			<svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M13.9131 0.495075C14.702 0.168228 15.5474 0 16.4013 0C17.2551 0 18.1006 0.168229 18.8894 0.495075C19.6781 0.821861 20.3947 1.30081 20.9982 1.90455C21.602 2.5081 22.0813 3.22501 22.408 4.01368C22.7349 4.80249 22.9031 5.64797 22.9031 6.50183C22.9031 7.35568 22.7349 8.20116 22.408 8.98997C22.0812 9.77872 21.6022 10.4953 20.9984 11.0989C20.9983 11.099 20.9985 11.0989 20.9984 11.0989L12.1584 19.9389C11.7679 20.3295 11.1347 20.3295 10.7442 19.9389L1.90418 11.0989C0.684956 9.8797 0 8.22607 0 6.50183C0 4.77758 0.684956 3.12395 1.90418 1.90472C3.12341 0.68549 4.77704 0.000534773 6.50129 0.000534773C8.22554 0.000534773 9.87917 0.68549 11.0984 1.90472L11.4513 2.25761L11.804 1.90488C11.8041 1.90483 11.804 1.90494 11.804 1.90488C12.4076 1.30106 13.1244 0.821892 13.9131 0.495075ZM16.4013 2C15.8102 2 15.2248 2.11647 14.6787 2.34274C14.1326 2.56902 13.6365 2.90068 13.2186 3.31877L12.1584 4.37893C11.7679 4.76946 11.1347 4.76946 10.7442 4.37893L9.68418 3.31893C8.84003 2.47478 7.69511 2.00053 6.50129 2.00053C5.30747 2.00053 4.16255 2.47478 3.3184 3.31893C2.47424 4.16309 2 5.30801 2 6.50183C2 7.69564 2.47424 8.84056 3.3184 9.68472L11.4513 17.8176L19.5842 9.68472C20.0023 9.26683 20.3341 8.77049 20.5604 8.22439C20.7866 7.67828 20.9031 7.09295 20.9031 6.50183C20.9031 5.9107 20.7866 5.32537 20.5604 4.77926C20.3341 4.23316 20.0024 3.73699 19.5843 3.3191C19.1665 2.90101 18.67 2.56902 18.1239 2.34274C17.5778 2.11647 16.9924 2 16.4013 2Z" fill="black"/>
+			</svg>				
+			<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M10.5528 0.105573C10.8343 -0.0351909 11.1657 -0.0351909 11.4472 0.105573L21.4472 5.10557C21.786 5.27496 22 5.62123 22 6C22 6.37877 21.786 6.72504 21.4472 6.89443L11.4472 11.8944C11.1657 12.0352 10.8343 12.0352 10.5528 11.8944L0.552784 6.89443C0.214 6.72504 -2.20432e-06 6.37877 -2.20432e-06 6C-2.20432e-06 5.62123 0.214 5.27496 0.552784 5.10557L10.5528 0.105573ZM3.23607 6L11 9.88197L18.7639 6L11 2.11803L3.23607 6Z" fill="black"/>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M0.105571 15.5528C0.35256 15.0588 0.953233 14.8586 1.44721 15.1056L11 19.882L20.5528 15.1056C21.0468 14.8586 21.6474 15.0588 21.8944 15.5528C22.1414 16.0468 21.9412 16.6474 21.4472 16.8944L11.4472 21.8944C11.1657 22.0352 10.8343 22.0352 10.5528 21.8944L0.552784 16.8944C0.0588057 16.6474 -0.141419 16.0468 0.105571 15.5528Z" fill="black"/>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M0.105571 10.5528C0.35256 10.0588 0.953233 9.85858 1.44721 10.1056L11 14.882L20.5528 10.1056C21.0468 9.85858 21.6474 10.0588 21.8944 10.5528C22.1414 11.0468 21.9412 11.6474 21.4472 11.8944L11.4472 16.8944C11.1657 17.0352 10.8343 17.0352 10.5528 16.8944L0.552784 11.8944C0.0588057 11.6474 -0.141419 11.0468 0.105571 10.5528Z" fill="black"/>
+			</svg>
+			<svg id='darkMode' width="21" height="20" viewBox="0 0 21 20" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+				<path d="M10.1 20C9.8 20 9.5 20 9.2 20C3.7 19.5 -0.299998 14.6 0.200002 9.10001C0.600002 4.30001 4.4 0.500006 9.2 0.100006C9.6 0.100006 10 0.300006 10.2 0.600006C10.4 0.900006 10.4 1.40001 10.1 1.70001C9.1 3.00001 8.8 4.60001 9 6.20001C9.2 7.80001 10.1 9.20001 11.4 10.1C13.5 11.7 16.4 11.7 18.5 10.1C18.8 9.90001 19.2 9.80001 19.6 10C19.9 10.2 20.1 10.6 20.1 11C19.9 13.7 18.6 16.1 16.5 17.8C14.6 19.2 12.4 20 10.1 20ZM7.3 2.40001C4.4 3.40001 2.4 6.00001 2.1 9.20001C1.7 13.6 4.9 17.5 9.3 17.9C11.4 18.1 13.5 17.5 15.1 16.1C16.2 15.2 17 14 17.5 12.7C15 13.6 12.2 13.2 10 11.6C8.3 10.3 7.2 8.50001 6.8 6.40001C6.7 5.00001 6.9 3.70001 7.3 2.40001Z" fill="black"/>
+			</svg>				
+		</nav>
+
+	</div>
+	<div class="image-container">
+		<div id='image1'>
+
+		</div>
+		<div id="image2"></div>
+	</div>
+
+	<div class="article">
+		<div id="article1">
+			<div class="top">
+				<div class="logo">
+					Surface
+				</div>
+				<div class="search">
+					<svg width="22" height="22" xmlns="http://www.w3.org/2000/svg">
+					<path d="M15.66 15.687l-.439-.456.743-1.016A7.956 7.956 0 0 0 17.5 9.5a8 8 0 1 0-8 8c1.702 0 3.32-.53 4.67-1.503l1.056-.761.434.451zm0 0l.45.47-.45-.47zm.45.47l2.163 2.253-2.162-2.253z" fill-rule="nonzero" stroke="#121212" stroke-width="3" fill="none"/>
+					</svg>
+				</div>
+			</div>
+
+			<div class="headline-wrapper">
+				<h3>FASHION</h3>
+				<h3>CARS</h3>
+				<h1>Rationality And Reasoning In The World Of The Living.</h1>
+				<h2>Where do we get these from in the first place.</h2>
+			</div>
+
+			<div class="text-wrapper">
+				<p>
+					Was certainty remaining engrossed applauded sir how discovery. Settled opinion how enjoyed greater joy adapted too shy. Now properly surprise expenses interest nor replying she she. Bore tall nay many many time yet less. Doubtful for answered one fat indulged margaret sir shutters together. Ladies so in wholly around whence in at. Warmth he up giving oppose if. Impossible is dissimilar entreaties oh on terminated. Earnest studied article country ten respect showing had. But required offering him elegance son improved informed. 
+			</p>
+				<p>
+					It sportsman earnestly ye preserved an on. Moment led family sooner cannot her window pulled any. Or raillery if improved landlord to speaking hastened differed he. Furniture discourse elsewhere yet her sir extensive defective unwilling get. Why resolution one motionless you him thoroughly. Noise is round to in it quick timed doors. Written address greatly get attacks inhabit pursuit our but. Lasted hunted enough an up seeing in lively letter. Had judgment out opinions property the supplied. 
+				</p>
+				<p>
+					Lose eyes get fat shew. Winter can indeed letter oppose way change tended now. So is improve my charmed picture exposed adapted demands. Received had end produced prepared diverted strictly off man branched. Known ye money so large decay voice there to.
+				</p>
+				<p>
+					Possible procured her trifling laughter thoughts property she met way. Companions shy had solicitude favourable own. Which could saw guest man now heard but. Lasted my coming uneasy marked so should. Gravity letters it amongst herself dearest an windows by. Wooded ladies she basket season age her uneasy saw. Discourse unwilling am no described dejection incommode no listening of. Before nature his parish boy. 
+				</p>
+				<p id="p5">
+					However venture pursuit he am mr cordial. Forming musical am hearing studied be luckily. Ourselves for determine attending how led gentleman sincerity. Valley afford uneasy joy she thrown though bed set. In me forming general prudent on country carried. Behaved an or suppose justice. Seemed whence how son rather easily and change missed. Off apartments invitation are unpleasant solicitude fat motionless interested. Hardly suffer wisdom wishes valley as an. As friendship advantages resolution it alteration stimulated he or increasing. 
+				</p>
+				<p>
+					Now residence dashwoods she excellent you. Shade being under his bed her. Much read on as draw. Blessing for ignorant exercise any yourself unpacked. Pleasant horrible but confined day end marriage. Eagerness furniture set preserved far recommend. Did even but nor are most gave hope. Secure active living depend son repair day ladies now. 
+					Offices parties lasting outward nothing age few resolve. Impression to discretion understood to we interested he excellence. Him remarkably use projection collecting. Going about eat forty world has round miles. Attention affection at my preferred offending shameless me if agreeable. Life lain held calm and true neat she. Much feet each so went no from. Truth began maids linen an mr to after. 
+
+				</p>
+				<p id='p6'>
+					By so delight of showing neither believe he present. Deal sigh up in shew away when. Pursuit express no or prepare replied. Wholly formed old latter future but way she. Day her likewise smallest expenses judgment building man carriage gay. Considered introduced themselves mr to discretion at. Means among saw hopes for. Death mirth in oh learn he equal on. 
+
+					Certainly elsewhere my do allowance at. The address farther six hearted hundred towards husband. Are securing off occasion remember daughter replying. Held that feel his see own yet. Strangers ye to he sometimes propriety in. She right plate seven has. Bed who perceive judgment did marianne. 
+				</p>
+				<p>
+					Allow miles wound place the leave had. To sitting subject no improve studied limited. Ye indulgence unreserved connection alteration appearance my an astonished. Up as seen sent make he they of. Her raising and himself pasture believe females. Fancy she stuff after aware merit small his. Charmed esteems luckily age out. 
+				</p>
+				<p>
+					Was certainty remaining engrossed applauded sir how discovery. Settled opinion how enjoyed greater joy adapted too shy. Now properly surprise expenses interest nor replying she she. Bore tall nay many many time yet less. Doubtful for answered one fat indulged margaret sir shutters together. Ladies so in wholly around whence in at. Warmth he up giving oppose if. Impossible is dissimilar entreaties oh on terminated. Earnest studied article country ten respect showing had. But required offering him elegance son improved informed. 
+			</p>
+			</div>
+		</div>
+		<div id="article2" data-anchor="articlenext">
+			<div class="separator">
+				
+			</div>
+
+			<div class="headline-wrapper">
+				<h3>LIFE</h3>
+				<h1>Where Are The Children Of Midnight</h1>
+				<h2>Where do we get these from in the first place.</h2>
+			</div>
+
+			<div class="text-wrapper">
+				<p>
+					Was certainty remaining engrossed applauded sir how discovery. Settled opinion how enjoyed greater joy adapted too shy. Now properly surprise expenses interest nor replying she she. Bore tall nay many many time yet less. Doubtful for answered one fat indulged margaret sir shutters together. Ladies so in wholly around whence in at. Warmth he up giving oppose if. Impossible is dissimilar entreaties oh on terminated. Earnest studied article country ten respect showing had. But required offering him elegance son improved informed. 
+			</p>
+				<p>
+					It sportsman earnestly ye preserved an on. Moment led family sooner cannot her window pulled any. Or raillery if improved landlord to speaking hastened differed he. Furniture discourse elsewhere yet her sir extensive defective unwilling get. Why resolution one motionless you him thoroughly. Noise is round to in it quick timed doors. Written address greatly get attacks inhabit pursuit our but. Lasted hunted enough an up seeing in lively letter. Had judgment out opinions property the supplied. 
+				</p>
+				<p>
+					Lose eyes get fat shew. Winter can indeed letter oppose way change tended now. So is improve my charmed picture exposed adapted demands. Received had end produced prepared diverted strictly off man branched. Known ye money so large decay voice there to.
+				</p>
+				<p>
+					Possible procured her trifling laughter thoughts property she met way. Companions shy had solicitude favourable own. Which could saw guest man now heard but. Lasted my coming uneasy marked so should. Gravity letters it amongst herself dearest an windows by. Wooded ladies she basket season age her uneasy saw. Discourse unwilling am no described dejection incommode no listening of. Before nature his parish boy. 
+				</p>
+				<p id="ap5">
+					However venture pursuit he am mr cordial. Forming musical am hearing studied be luckily. Ourselves for determine attending how led gentleman sincerity. Valley afford uneasy joy she thrown though bed set. In me forming general prudent on country carried. Behaved an or suppose justice. Seemed whence how son rather easily and change missed. Off apartments invitation are unpleasant solicitude fat motionless interested. Hardly suffer wisdom wishes valley as an. As friendship advantages resolution it alteration stimulated he or increasing. 
+				</p>
+				<p>
+					Now residence dashwoods she excellent you. Shade being under his bed her. Much read on as draw. Blessing for ignorant exercise any yourself unpacked. Pleasant horrible but confined day end marriage. Eagerness furniture set preserved far recommend. Did even but nor are most gave hope. Secure active living depend son repair day ladies now. 
+					Offices parties lasting outward nothing age few resolve. Impression to discretion understood to we interested he excellence. Him remarkably use projection collecting. Going about eat forty world has round miles. Attention affection at my preferred offending shameless me if agreeable. Life lain held calm and true neat she. Much feet each so went no from. Truth began maids linen an mr to after. 
+
+				</p>
+				<p id=''>
+					By so delight of showing neither believe he present. Deal sigh up in shew away when. Pursuit express no or prepare replied. Wholly formed old latter future but way she. Day her likewise smallest expenses judgment building man carriage gay. Considered introduced themselves mr to discretion at. Means among saw hopes for. Death mirth in oh learn he equal on. 
+
+					Certainly elsewhere my do allowance at. The address farther six hearted hundred towards husband. Are securing off occasion remember daughter replying. Held that feel his see own yet. Strangers ye to he sometimes propriety in. She right plate seven has. Bed who perceive judgment did marianne. 
+				</p>
+				<p>
+					Allow miles wound place the leave had. To sitting subject no improve studied limited. Ye indulgence unreserved connection alteration appearance my an astonished. Up as seen sent make he they of. Her raising and himself pasture believe females. Fancy she stuff after aware merit small his. Charmed esteems luckily age out. 
+				</p>
+				<p>
+					Was certainty remaining engrossed applauded sir how discovery. Settled opinion how enjoyed greater joy adapted too shy. Now properly surprise expenses interest nor replying she she. Bore tall nay many many time yet less. Doubtful for answered one fat indulged margaret sir shutters together. Ladies so in wholly around whence in at. Warmth he up giving oppose if. Impossible is dissimilar entreaties oh on terminated. Earnest studied article country ten respect showing had. But required offering him elegance son improved informed. 
+			</p>
+			</div>
+		</div>
+	</div>
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+	<!-- SCRIPTS -->
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+	<!-- <script defer src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+	<script defer src="/js/function.js"></script>
+</body>
+</html>
