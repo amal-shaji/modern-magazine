@@ -1,9 +1,9 @@
 let image1 = document.querySelector('#image1')
 let image2 = document.querySelector('#image2')
-image1.style.backgroundImage = "url('/img/steady.jpg')"
+image1.style.backgroundImage = "url('img/steady.jpg')"
 $('#p5').waypoint(function(direction) {
 	if (direction === 'up'){
-		image2.style.backgroundImage = "url('/img/steady.jpg')"
+		image2.style.backgroundImage = "url('img/steady.jpg')"
 		image1.style.zIndex ='900'
 	}
 	var tl = anime.timeline({
@@ -17,7 +17,7 @@ $('#p5').waypoint(function(direction) {
 		translateX: '200',
 		zIndex: 1001,
 		update: function(){
-			image2.style.backgroundImage = "url('/img/harley.jpg')"
+			image2.style.backgroundImage = "url('img/harley.jpg')"
 		}
 	  })
 	  .add({
@@ -31,7 +31,7 @@ $('#p5').waypoint(function(direction) {
 });
 $('#article2').waypoint(function(direction) {
 	if (direction === 'up'){
-		image2.style.backgroundImage = "url('/img/harley.jpg')"
+		image2.style.backgroundImage = "url('img/harley.jpg')"
 		image1.style.zIndex ='900'
 	}
 	var tl = anime.timeline({
@@ -45,7 +45,7 @@ $('#article2').waypoint(function(direction) {
 		translateY: '200',
 		zIndex: 1002,
 		update: function(){
-			image1.style.backgroundImage = "url('/img/boy.jpg')"
+			image1.style.backgroundImage = "url('img/boy.jpg')"
 		}
 	  })
 	  .add({
@@ -72,7 +72,7 @@ $('#ap5').waypoint(function(direction) {
 		translateX: '200',
 		zIndex: 1004,
 		update: function(){
-			image2.style.backgroundImage = "url('/img/child.jpg')"
+			image2.style.backgroundImage = "url('img/child.jpg')"
 		}
 	  })
 	  .add({
